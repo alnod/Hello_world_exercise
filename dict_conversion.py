@@ -10,14 +10,11 @@ return dict
 """
 
 def type_conversion(arr):
-    # print(arr)
     arr.sort()
-    # print(arr)
     new_dict = {}
     for ind, val in enumerate(arr):
         new_dict[ind] = val
     print(new_dict)
-
 
 
 num = [2, 3, 5, 8, 1, 4]
